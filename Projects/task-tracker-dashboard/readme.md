@@ -1,3 +1,7 @@
+![Stack](https://img.shields.io/badge/Flask%20%2B%20JS-Interactive-blueviolet)
+![Dashboard](https://img.shields.io/badge/CRUD%20UI-Responsive-brightgreen)
+![Status](https://img.shields.io/badge/Live-Demo%20Ready-yellowgreen)
+
 # Task Tracker Dashboard
 
 This project is a lightweight task tracking dashboard that supports adding, editing, and organizing tasks with an intuitive UI and dynamic priority handling. It simulates a simplified task manager for internal teams such as operations, engineering, or marketing to track priorities without needing full-scale project management tools.
