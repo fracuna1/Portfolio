@@ -1,3 +1,7 @@
+![Language](https://img.shields.io/badge/Python-3.10-blue)
+![Database](https://img.shields.io/badge/MongoDB-NoSQL-lightgrey)
+![Status](https://img.shields.io/badge/CRUD-Complete-brightgreen)
+
 # Inventory Tracker
 
 A lightweight NoSQL-based inventory tracking system for managing product catalogs with unstructured data.
