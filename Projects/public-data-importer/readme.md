@@ -1,3 +1,7 @@
+![Language](https://img.shields.io/badge/Python-API%20Fetch-blue)
+![API](https://img.shields.io/badge/Source-Public%20Dataset-yellowgreen)
+![Status](https://img.shields.io/badge/Ingestion-Complete-brightgreen)
+
 # Public Data Importer
 
 This project automates the extraction and ingestion of publicly available data via APIs into a structured relational database format. It’s designed to simulate a common data engineering workflow where external data sources are regularly queried, transformed, and stored for analysis.
