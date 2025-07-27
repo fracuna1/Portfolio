@@ -1,3 +1,7 @@
+![Database](https://img.shields.io/badge/SQL-MySQL%20%7C%20PostgreSQL-blue)
+![Diagram](https://img.shields.io/badge/ERD-Included-yellow)
+![Status](https://img.shields.io/badge/Schema-Designed-success)
+
 # Logistics Database Model
 
 This project presents a relational database schema tailored for a logistics company. The schema supports the management of shipments, warehouses, customers, inventory, and delivery routes. It is designed to be scalable and serve as the backbone of data analysis for supply chain performance.
