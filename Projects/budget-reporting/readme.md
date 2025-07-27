@@ -1,3 +1,7 @@
+![Tools](https://img.shields.io/badge/Excel%20%7C%20SQL-Dashboards-blueviolet)
+![Status](https://img.shields.io/badge/Variance%20Analysis-Complete-brightgreen)
+![Automation](https://img.shields.io/badge/Formulas%20%2B%20Macros-Enabled-success)
+
 # Budget Reporting
 
 This project simulates a monthly budget variance reporting system using SQL for data extraction and Excel for visualization. The goal is to replicate how many organizations handle cost monitoring and budget tracking through easily understandable dashboards.
