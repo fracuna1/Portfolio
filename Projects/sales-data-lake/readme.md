@@ -1,3 +1,7 @@
+![Language](https://img.shields.io/badge/PySpark-Databricks-red)
+![Status](https://img.shields.io/badge/Data%20Lake-Bronze%20%7C%20Silver%20%7C%20Gold-green)
+![Streaming](https://img.shields.io/badge/Simulation-On%20Interval-yellow)
+
 # Sales Data Lake
 
 This project simulates a cloud-based data lake pipeline designed for processing sales transaction data. It showcases how to ingest raw files, transform and enrich the data, and promote it through bronze, silver, and gold layers using PySpark.
