@@ -65,7 +65,6 @@ http://localhost:5000
 
 ## Screenshots
 
-Include screenshots or screen recording of your drag-and-drop UI and priority indicator logic here.
 
 ## Author
 
