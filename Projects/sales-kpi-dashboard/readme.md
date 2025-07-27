@@ -1,3 +1,7 @@
+![Tool](https://img.shields.io/badge/Power%20BI-SQL%20%2B%20Forecasting-yellowgreen)
+![Status](https://img.shields.io/badge/KPI%20Tracking-Complete-brightgreen)
+![Forecast](https://img.shields.io/badge/Trends-Monthly-orange)
+
 # Sales KPI Dashboard
 
 This project showcases a data-driven sales performance dashboard designed to track and report key performance indicators (KPIs) across regions and time periods.
