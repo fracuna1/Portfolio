@@ -1,3 +1,7 @@
+![Tool](https://img.shields.io/badge/Airflow-ETL-blue)
+![Status](https://img.shields.io/badge/Scheduled%20Jobs-Working-brightgreen)
+![Retry](https://img.shields.io/badge/Failure%20Handling-Retry%20Enabled-yellow)
+
 # Data Refresh Scheduler
 
 This project demonstrates an automated data refresh system that simulates updating datasets from external sources on a scheduled basis. It mimics how data engineers automate refresh tasks using scheduling tools such as cron or Airflow.
