@@ -1,3 +1,7 @@
+![Language](https://img.shields.io/badge/Python-3.10-blue)
+![Status](https://img.shields.io/badge/ETL%20Pipeline-Complete-brightgreen)
+![Dataset](https://img.shields.io/badge/Data-Synthetic-orange)
+
 # Shipping Insights
 
 This project simulates an ETL (Extract, Transform, Load) pipeline for logistics and supply chain operations. The focus is on extracting shipment and warehouse CSV data, transforming it using Python and Pandas, and loading it into a structured SQLite database. The final output includes summary tables used for analytical reporting and operations tracking.
