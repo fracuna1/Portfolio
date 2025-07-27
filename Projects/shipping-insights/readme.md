@@ -1,106 +1,60 @@
+# Shipping Insights
 
-# 📦 Shipping Insights
+This project simulates an ETL (Extract, Transform, Load) pipeline for logistics and supply chain operations. The focus is on extracting shipment and warehouse CSV data, transforming it using Python and Pandas, and loading it into a structured SQLite database. The final output includes summary tables used for analytical reporting and operations tracking.
 
-A lightweight ETL pipeline for retail logistics analytics. This project simulates the process of extracting shipment manifest data, cleaning and transforming it using Python, and loading it into a relational database for analysis. The goal is to generate actionable insights for operations teams monitoring delivery performance and shipping KPIs.
+## Features
 
----
+- Extracts shipment and warehouse data from CSV files
+- Cleans and transforms raw logistics data
+- Stores processed data in a relational SQLite database
+- Generates summary tables with key shipping metrics
 
-## 🧰 Tools & Technologies
+## Tools & Technologies
 
-- **Python 3.x**
-- **Pandas**
-- **SQLite**
-- **CSV Files**
-- (Optional) **Jupyter Notebook** for data exploration
+- Python
+- Pandas
+- SQLite
+- CSV
 
----
-
-## 🔄 Workflow
-
-1. **Extract**  
-   - Import shipment data from raw CSV files (e.g., deliveries.csv, carriers.csv).
-
-2. **Transform**  
-   - Normalize date formats  
-   - Remove null or duplicate entries  
-   - Calculate shipping delay (`actual_delivery_date - expected_delivery_date`)  
-   - Categorize shipments by region, status, or carrier
-
-3. **Load**  
-   - Save cleaned and transformed data into SQLite database tables  
-   - Generate SQL reports with aggregate metrics
-
----
-
-## 📊 Example Features
-
-- Identify delayed vs. on-time shipments
-- Average delivery time by region or carrier
-- Carrier performance metrics
-- Filterable summary views using SQL
-
----
-
-## 📁 Project Structure
+## Folder Structure
 
 ```
 shipping-insights/
-├── data/
-│   └── deliveries_raw.csv
-├── scripts/
-│   └── etl_pipeline.py
-├── db/
-│   └── shipping.db
-├── reports/
-│   └── summary_queries.sql
-├── README.md
+├── data/               # Sample CSV shipment data
+├── etl/                # ETL scripts (extract, transform, load)
+├── db/                 # SQLite database files
+├── reports/            # Output summary reports
+└── README.md
 ```
 
----
+## Setup Instructions
 
-## 🚀 Getting Started
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/shipping-insights.git
+cd shipping-insights
+```
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/shipping-insights.git
-   cd shipping-insights
-   ```
+2. (Optional) Create a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-2. **Install dependencies**
-   ```bash
-   pip install pandas
-   ```
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-3. **Place raw CSV files** into the `data/` directory.
+4. Run the ETL pipeline:
+```bash
+python etl/run_etl.py
+```
 
-4. **Run the ETL script**
-   ```bash
-   python scripts/etl_pipeline.py
-   ```
+5. Explore the generated reports in the `reports/` folder.
 
-5. **Explore data** in `shipping.db` using your preferred SQLite client or via SQL in the terminal.
+## Use Cases
 
----
-
-## ✅ Use Cases
-
-This project simulates a real-world logistics pipeline and showcases key data engineering capabilities:
-
-- Data wrangling and normalization
-- SQL-based reporting
-- Performance tracking across vendors
-- Supply chain transparency
-
----
-
-## 📌 Future Improvements
-
-- Add Airflow or cron job integration for scheduling
-- Export dashboards to Excel or Power BI
-- Automate email reports or alerting
-
----
-
-## 🧠 Learn More
-
-This project demonstrates core data engineering principles using accessible tooling. Ideal for junior data engineers, analysts, or BI professionals working in operations-heavy industries like eCommerce, shipping, or distribution.
+- Logistics departments needing to streamline shipment data ingestion and reporting
+- Data engineers demonstrating transformation logic for supply chain datasets
+- Educational reference for building ETL pipelines with Python and SQLite
