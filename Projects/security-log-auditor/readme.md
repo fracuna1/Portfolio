@@ -1,3 +1,7 @@
+![Language](https://img.shields.io/badge/Python-Log%20Audit-blue)
+![Status](https://img.shields.io/badge/Data%20Quality-Checked-brightgreen)
+![Logs](https://img.shields.io/badge/IAM%20Audit-JSON%20%7C%20SQL-lightgrey)
+
 # Security Log Auditor
 
 This project is a lightweight log auditing tool designed to process and evaluate Identity and Access Management (IAM) logs for anomalies and data quality issues. It simulates a basic compliance check system often used in cybersecurity and IT governance.
